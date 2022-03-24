@@ -1,6 +1,9 @@
 # A General Skull Stripping of Multiparametric Brain MRIs Using 3D Convolutional Neural Network
 
-The objective of the project is to strip skull for multiparametric MRIs (mpMRIs). Users can find the pre-trained model in folder: pre-trained-model. The proposed method is convolutional neural network (CNN)-based. The algorithim is implemented in Python. It works for healthy brain mpMRIs, pre-operative mpMRIs, and post-operative mpMRIs. Furthermore, the algorithm is easy to custermize for any image modality (or any combinations). There is a skull stripping for healthy, pre-operative, and post-operative mpMRIs.
+The objective of the project is to strip skull for multiparametric MRIs (mpMRIs). Users can find the pre-trained model in folder: pre-trained-model. The proposed method is convolutional neural network (CNN)-based. The algorithim is implemented in Python. It works for healthy brain mpMRIs, pre-operative mpMRIs, and post-operative mpMRIs. Furthermore, the algorithm is easy to custermize for any image modality (or any combinations). The proposed architecture is showing as:
+![architecture](supplement/proposed%20method.png)
+
+There are skull stripping cases for healthy, pre-operative, and post-operative mpMRIs.
 ![showcase](supplement/three%20showcases.png)
 
 Required packages:
@@ -33,5 +36,5 @@ Once you have a trained model (or use the pre-trained model), it is very easy to
 >python test_online.py
 
 ### State-of-the-art comparison
-We also comparison the proposed method to popular methods/tools (including traditional methods and recent deep learning-based methods). Here is the comparison.
+We also compare the proposed method to popular methods/tools (including traditional methods and recent deep learning-based methods). Here is the comparison.
 ![comparison](supplement/comparison%20of%20state-of-the-art.png)
