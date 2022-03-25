@@ -13,6 +13,28 @@ Required packages:
 4. Numpy 
 5. Scipy
 -----
+## Data structure
+```tree
+last_train
+    RRC_0001_fusion.nii.gz
+    RRC_0002_fusion.nii.gz
+    ...
+
+
+last_test
+    RRC_0003
+        RRC_0003_flair.nii.gz
+        RRC_0003_t1.nii.gz
+        RRC_0003_t1ce.nii.gz
+        RRC_0003_t2.nii.gz
+    RRC_0004
+        RRC_0004_flair.nii.gz
+        RRC_0004_t1.nii.gz
+        RRC_0004_t1ce.nii.gz
+        RRC_0004_t2.nii.gz
+    ...
+
+```
 ## Usage
 The configuration must be properly set up. Here are important configures:
 * root_dir: parent directory for images
@@ -26,7 +48,7 @@ The configuration must be properly set up. Here are important configures:
 * train_list: a text file contains the training sample file names
 * valid_list: a text file contains the training sample file names
 * img_dir: directory to training/validation data
-### Train model (stronly recommend GPU)
+### Train model (strongly recommend GPU)
 To train your own model, the mpMRIs must be pre-processed following the pipeline. The mpMRIs needs to be normalized and stacked with sequence of FLAIR, T1, T1ce, and T2.
 ![pipleline](./supplement/pipeline.png)
 Once the mpMRIs is preprocessed, execute the following code to train your own model.
