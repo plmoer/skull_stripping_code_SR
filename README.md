@@ -64,3 +64,4 @@ We also compare the proposed method to popular methods/tools (including traditio
 ### Citation
 Pei, L., Murat, A.K., Tahon, N.H.M. et al. A general skull stripping of multiparametric brain MRIs using 3D convolutional neural network. Sci Rep 12, 10826 (2022). 
 [https://doi.org/10.1038/s41598-022-14983-4](https://doi.org/10.1038/s41598-022-14983-4)
+
