@@ -60,3 +60,7 @@ Once you have a trained model (or use the pre-trained model), it is very easy to
 ### State-of-the-art comparison
 We also compare the proposed method to popular methods/tools (including traditional methods and recent deep learning-based methods). Here is the comparison.
 ![comparison](supplement/comparison%20of%20state-of-the-art.png)
+
+### Citation
+Pei, L., Murat, A.K., Tahon, N.H.M. et al. A general skull stripping of multiparametric brain MRIs using 3D convolutional neural network. Sci Rep 12, 10826 (2022). 
+[https://doi.org/10.1038/s41598-022-14983-4](https://doi.org/10.1038/s41598-022-14983-4)
