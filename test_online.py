@@ -25,8 +25,8 @@ from utils.loadFusionImage import loadFusionImage
 from utils.imagePadding import *
 import SimpleITK as sitk
 import random
-import ipdb
-ipdb.set_trace(context=20)
+# import ipdb
+# ipdb.set_trace(context=20)
 
 sPhase = 'test'  # 'train', 'valid', or 'test'
 cFile = 'config.ini'  # configuration file
